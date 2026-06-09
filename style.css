@@ -103,8 +103,7 @@ p   {
     align-items: center;  
   
     padding: 2rem 0;  
-	background-color: #FFF9EF;
-	
+	background-color: crimson;
 	
   }  
 
@@ -376,5 +375,9 @@ footer p   {
         font-size: 3rem;  
       }  
 
-
+	
   }}
+
+body {
+    background: red;
+}
