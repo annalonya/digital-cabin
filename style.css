@@ -44,14 +44,11 @@ img \{\
     display: block;\
 \}\
 \
-a \}\
+a \{\
     color: inherit;\
     text-decoration: none;\
 \}\
-\
-a \{\
-    text-decoration: none;
-\}\
+
 \
 .my-link \{\
     color: black; 
@@ -114,6 +111,10 @@ p \{\
     font-family: "Cormorant Garamond", serif;\
     font-size: 2rem;\
 \}\
+.logo > a {
+	color: black;
+}
+ 
 \
 .logo a:link \{\
     color: black; 
@@ -144,7 +145,7 @@ p \{\
     transition: opacity 0.3s ease;\
 \}\
 
-.nav-links a \{\
+.nav-links > a \{\
     text-decoration: none;
     color: black;
 \}\
