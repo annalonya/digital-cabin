@@ -204,6 +204,12 @@ footer p \{\
     padding-bottom: 6rem;\
 \}\
 \
+.blog-page \{\
+    max-width: 750px;\
+    margin: 0 auto;\
+    padding-bottom: 6rem;\
+\}\
+\
 .page-title \{\
     margin: 3rem 0;\
 \}\
