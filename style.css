@@ -57,26 +57,7 @@ a \{\
 nav a {
     color: black;
 } \}\
-\
-a:link {
-    color: black; 
-}
 
-/* 2. 방문한 적이 있는 링크 색상 */
-a:visited {
-    color: black; 
-}
-
-/* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
-a:hover {
-    color: crimson; 
-}
-
-/* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
-a:active {
-    color: crimson; 
-}
-	\}\
 \
 main \{\
     width: min(1100px, 90%);\
@@ -122,11 +103,32 @@ p \{\
 \
     padding: 2rem 0;\
 \}\
+
 \
 .logo a \{\
     font-family: "Cormorant Garamond", serif;\
     font-size: 2rem;\
 \}\
+\
+.logo a:link {
+    color: black; 
+}
+
+/* 2. 방문한 적이 있는 링크 색상 */
+.logo a:visited {
+    color: black; 
+}
+
+/* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
+.logo a:hover {
+    color: crimson; 
+}
+
+/* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
+.logo a:active {
+    color: crimson; 
+}
+	\}\
 
 \
 .nav-links \{\
