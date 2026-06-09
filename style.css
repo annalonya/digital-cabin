@@ -28,9 +28,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*
+ var(--bg)
+	*/
 body {
-    background: var(--bg);
+    background: red;
     color: var(--text);
 
     font-family: "Inter", sans-serif;
@@ -374,10 +376,6 @@ footer p   {
     h1   {  
         font-size: 3rem;  
       }  
-
-body {
-    background: red;
-}
 	
   }}
 
