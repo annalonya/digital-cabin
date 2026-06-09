@@ -303,22 +303,22 @@ footer p \{\
 \
 
 	a:link {
-    color: black; 
+    color: black !important; 
 }
 
 /* 2. 방문한 적이 있는 링크 색상 */
 a:visited {
-    color: black; 
+    color: black !important; 
 }
 
 /* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
 a:hover {
-    color: crimson; 
+    color: crimson !important; 
 }
 
 /* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
 a:active {
-    color: crimson; 
+    color: crimson !important; 
 }
 	\}\
 \}}
