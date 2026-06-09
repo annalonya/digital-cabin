@@ -44,22 +44,24 @@ img \{\
     display: block;\
 \}\
 \
-a \{\
+a \}\
     color: inherit;\
     text-decoration: none;\
 \}\
-a {
-    text-decoration: none;
-}
 \
-.my-link {
+a \{\
+    text-decoration: none;
+\}\
+\
+.my-link \{\
     color: black; 
-}
+\}\
 
 /* 방법 B: 상위 요소 활용 */
-nav a {
+\
+nav a \{\
     color: black;
-} \}\
+\}\
 
 \
 main \{\
@@ -113,24 +115,23 @@ p \{\
     font-size: 2rem;\
 \}\
 \
-.logo a:link {
+.logo a:link \{\
     color: black; 
-}
+\}\
 
 /* 2. 방문한 적이 있는 링크 색상 */
-.logo a:visited {
+.logo a:visited \{\
     color: black; 
-}
+\}\
 
 /* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
-.logo a:hover {
+.logo a:hover \{\
     color: crimson; 
-}
+\}\
 
 /* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
-.logo a:active {
+.logo a:active \{\
     color: crimson; 
-}
 \}\
 
 \
@@ -143,19 +144,19 @@ p \{\
     transition: opacity 0.3s ease;\
 \}\
 
-.nav-links a {
+.nav-links a \{\
     text-decoration: none;
     color: black;
-}
-.logo {
+\}\
+.logo \{\
     margin-top: 20px;
     margin-left: 30px;
-}
+\}\
 
-.nav-links {
+.nav-links \{\
     margin-top: 10px;
     margin-left: 30px;
-}
+\}\
 
 \
 .nav-links a:hover \{\
@@ -163,25 +164,25 @@ p \{\
 	
 \}\
 \
-.nav-links a:link {
+.nav-links a:link \{\
     color: black; 
-}
+\}\
 
 /* 2. 방문한 적이 있는 링크 색상 */
-.nav-links a:visited {
+.nav-links a:visited \{\
     color: black; 
-}
+\}\
 
 /* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
-.nav-links a:hover {
+.nav-links a:hover \{\
     color: crimson; 
-}
+\}\
 
 /* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
-.nav-links a:active {
+.nav-links a:active \{\
     color: crimson; 
-}
 \}\
+
 \
 /* ===================================\
    Hero\
