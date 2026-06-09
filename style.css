@@ -38,7 +38,7 @@ body \{\
 \}\
 \
 img \{\
-    width: 100%;\
+    width: 50%;\
     display: block;\
 \}\
 \
@@ -95,6 +95,7 @@ p \{\
 .logo a \{\
     font-family: "Cormorant Garamond", serif;\
     font-size: 2rem;\
+   font-color: black;\
 \}\
 \
 .nav-links \{\
