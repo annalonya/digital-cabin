@@ -48,24 +48,33 @@ a \{\
     color: inherit;\
     text-decoration: none;\
 \}\
- \
-	a:link {
-    color: black !important; 
+\
+.my-link {
+    color: black; 
+}
+
+/* 방법 B: 상위 요소 활용 */
+nav a {
+    color: black;
+} \}\
+\
+a:link {
+    color: black; 
 }
 
 /* 2. 방문한 적이 있는 링크 색상 */
 a:visited {
-    color: black !important; 
+    color: black; 
 }
 
 /* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
 a:hover {
-    color: crimson !important; 
+    color: crimson; 
 }
 
 /* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
 a:active {
-    color: crimson !important; 
+    color: crimson; 
 }
 	\}\
 \
