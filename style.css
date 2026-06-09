@@ -1,379 +1,377 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2870
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+{  rtf1  ansi  ansicpg1252  cocoartf2870
+  cocoatextscaling0  cocoaplatform0{  fonttbl  f0  fswiss  fcharset0 Helvetica;}
+{  colortbl;  red255  green255  blue255;}
+{  *  expandedcolortbl;;}
+  paperw11900  paperh16840  margl1440  margr1440  vieww11520  viewh8400  viewkind0
+  pard  tx720  tx1440  tx2160  tx2880  tx3600  tx4320  tx5040  tx5760  tx6480  tx7200  tx7920  tx8640  pardirnatural  partightenfactor0
 
-\f0\fs24 \cf0 /* ===================================\
-   DIGITAL CABIN\
-   Minimal Editorial Website\
-=================================== */\
+  f0  fs24   cf0 /* ===================================  
+   DIGITAL CABIN  
+   Minimal Editorial Website  
+=================================== */  
 
  
- \
-:root \{\
-    --bg: #f8f6f2;\
-    --card: #e9e5df;\
-    --text: #4f4a45;\
-    --border: #d9d3cb;\
-\}\
-\
-/* ===================================\
-   Base Styles\
-=================================== */\
-\
-* \{\
-    margin: 30px;\
-    padding: 0;\
-    box-sizing: border-box;\
-\}\
-\
-body \{\
-    background: var(--bg);\
-    color: var(--text);\
-\
-    font-family: "Inter", sans-serif;\
-\
-    line-height: 1.8;\
-    font-size: 17px;\
-\}\
-\
-img \{\
-    width: 50%;\
-    display: block;\
-\}\
-\
-a \{\
-    color: black;\
-    text-decoration: none;\
-\}\
 
-\
-.nav-link \{\
+:root {
+    --bg: #f8f6f2;
+    --card: #e9e5df;
+    --text: #4f4a45;
+    --border: #d9d3cb;
+}
+
+/* ===================================  
+   Base Styles  
+=================================== */
+
+* {
+    margin: 30px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+
+    font-family: "Inter", sans-serif;
+    line-height: 1.8;
+    font-size: 17px;
+  }  
+  
+img   {  
+    width: 50%;  
+    display: block;  
+  }  
+  
+a   {  
+    color: black;  
+    text-decoration: none;  
+  }  
+
+  
+.nav-link   {  
     color: black; 
-\}\
+  }  
 
 /* 방법 B: 상위 요소 활용 */
-\
-nav a \{\
+  
+nav a   {  
     color: black;
-\}\
+  }  
 
-\
-main \{\
-    width: min(1100px, 90%);\
-    margin: 30px auto;\
-\}\
-\
-/* ===================================\
-   Typography\
-=================================== */\
-\
-h1,\
-h2,\
-h3 \{\
-    font-family: "Cormorant Garamond", serif;\
-    font-weight: 500;\
-\}\
-\
-h1 \{\
-    font-size: clamp(3rem, 5vw, 5rem);\
-    line-height: 1.05;\
-\}\
-\
-h2 \{\
-    font-size: 2rem;\
-    margin-bottom: 1rem;\
-\}\
-\
-p \{\
-    margin-bottom: 1rem;\
-\}\
-\
-/* ===================================\
-   Navigation\
-=================================== */\
-\
-.nav \{\
-    width: min(1100px, 90%);\
-    margin: 30px;\
-\
-    display: flex;\
-    justify-content: space-between;\
-    align-items: center;\
-\
-    padding: 2rem 0;\
-\}\
+  
+main   {  
+    width: min(1100px, 90%);  
+    margin: 30px auto;  
+  }  
+  
+/* ===================================  
+   Typography  
+=================================== */  
+  
+h1,  
+h2,  
+h3   {  
+    font-family: "Cormorant Garamond", serif;  
+    font-weight: 500;  
+  }  
+  
+h1   {  
+    font-size: clamp(3rem, 5vw, 5rem);  
+    line-height: 1.05;  
+  }  
+  
+h2   {  
+    font-size: 2rem;  
+    margin-bottom: 1rem;  
+  }  
+  
+p   {  
+    margin-bottom: 1rem;  
+  }  
+  
+/* ===================================  
+   Navigation  
+=================================== */  
+  
+.nav   {  
+    width: min(1100px, 90%);  
+    margin: 30px;  
+  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+  
+    padding: 2rem 0;  
+  }  
 
-\
-.logo a \{\
-    font-family: "Cormorant Garamond", san-serif;\
-    font-size: 2rem;\
-\}\
-.logo a {
+  
+.logo a   {  
+    font-family: "Cormorant Garamond", san-serif;  
+    font-size: 2rem;  
 	color: black;
 	margin-top: 20px; 
 	margin-left: 30px;
-}
+  }  
  
-\
-.logo a:link \{\
+  
+.logo a:link   {  
     color: black; 
-\}\
+  }  
 
 /* 2. 방문한 적이 있는 링크 색상 */
-.logo a:visited \{\
+.logo a:visited   {  
     color: black; 
-\}\
+  }  
 
 /* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
-.logo a:hover \{\
+.logo a:hover   {  
     color: crimson; 
-\}\
+  }  
 
 /* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
-.logo a:active \{\
+.logo a:active   {  
     color: crimson; 
-\}\
+  }  
 
-\
-.nav-links \{\
-    display: flex;\
-    gap: 2rem;\
-\}\
-\
-.nav-links a \{\
-    transition: opacity 0.3s ease;\
-\}\
+  
+.nav-links   {  
+    display: flex;  
+    gap: 2rem;  
+  }  
+  
+.nav-links a   {  
+    transition: opacity 0.3s ease;  
+  }  
 
-.nav-links > a \{\
+.nav-links > a  {  
     text-decoration: none;
     color: black;
-\}\
-.logo \{\
+  }  
+ 
+.logo   {  
     margin-top: 20px;
     margin-left: 30px;
-\}\
+  }  
 
-.nav-links \{\
+.nav-links   {  
     margin-top: 10px;
     margin-left: 30px;
-\}\
+  }  
 
-\
-.nav-links a:hover \{\
-    opacity: 0.6;\
+  
+.nav-links a:hover   {  
+    opacity: 0.6;  
 	
-\}\
-\
-.nav-links a:link \{\
+  }  
+  
+.nav-links a:link   {  
     color: black; 
-\}\
+  }  
 
 /* 2. 방문한 적이 있는 링크 색상 */
-.nav-links a:visited \{\
+.nav-links a:visited   {  
     color: black; 
-\}\
+  }  
 
 /* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
-.nav-links a:hover \{\
+.nav-links a:hover   {  
     color: crimson; 
-\}\
+  }  
 
 /* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
-.nav-links a:active \{\
+.nav-links a:active   {  
     color: crimson; 
-\}\
+  }  
 
-\
-/* ===================================\
-   Hero\
-=================================== */\
-\
-.hero \{\
-    display: grid;\
-    grid-template-columns: 1fr 1fr;\
-    gap: 5rem;\
-\
-    align-items: center;\
-\
-    min-height: 75vh;\
-\}\
-\
-.hero-image img \{\
-    border-radius: 4px;\
-\}\
-\
-.hero-text p \{\
-    max-width: 500px;\
+  
+/* ===================================  
+   Hero  
+=================================== */  
+  
+.hero   {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr;  
+    gap: 5rem;  
+  
+    align-items: center;  
+  
+    min-height: 75vh;  
+  }  
+  
+.hero-image img   {  
+    border-radius: 4px;  
+  }  
+  
+.hero-text p   {  
+    max-width: 500px;  
     margin-top: 20px; margin-left: 30px;
-\}\
-\
-/* ===================================\
-   Button\
-=================================== */\
-\
-.button \{\
-    display: inline-block;\
-\
-    margin-top: 1rem;\
-\
-    padding: 0.9rem 1.5rem;\
-\
-    border: 1px solid var(--text);\
-\
-    transition: all 0.3s ease;\
-\}\
-\
-.button:hover \{\
-    background: var(--text);\
-    color: var(--bg);\
-\}\
-\
-/* ===================================\
-   Featured Cards\
-=================================== */\
-\
-.featured \{\
-    display: grid;\
-    grid-template-columns: repeat(3, 1fr);\
-\
-    gap: 2rem;\
-\
-    margin: 5rem 0 8rem;\
-\}\
-\
-.card \{\
-    padding: 2rem;\
-\
-    background: var(--card);\
-\
-    border-radius: 4px;\
-\}\
-\
-.card p \{\
-    margin-bottom: 0;\
-\}\
-\
-/* ===================================\
-   Footer\
-=================================== */\
-\
-footer \{\
-    border-top: 1px solid var(--border);\
-\
-    text-align: center;\
-\
-    padding: 3rem 1rem;\
-\}\
-\
-footer p \{\
-    margin: 0.5rem 0;\
-\}\
-\
-/* ===================================\
-   Blog Archive\
-=================================== */\
-\
-.blog-page \{\
-    max-width: 750px;\
-    margin: 0 auto;\
-    padding-bottom: 6rem;\
-\}\
-\
-.blog-page \{\
-    max-width: 750px;\
-    margin: 0 auto;\
-    padding-bottom: 6rem;\
-\}\
-\
-.page-title \{\
-    margin: 3rem 0;\
-\}\
-\
-.post-preview \{\
-    padding: 2rem 0;\
-\
-    border-bottom: 1px solid var(--border);\
-\}\
-\
-.post-date \{\
-    font-size: 0.9rem;\
-    opacity: 0.7;\
-\}\
-\
-.post-preview a \{\
-    display: inline-block;\
-    margin-top: 0.5rem;\
-\}\
-\
-.post-preview a:hover \{\
-    opacity: 0.6;\
-\}\
-\
-/* ===================================\
-   Single Post\
-=================================== */\
-\
-.post-container \{\
-    max-width: 750px;\
-    margin: 0 auto;\
-\
-    padding-bottom: 6rem;\
-\}\
-\
-.featured-image \{\
-    margin: 2rem 0 3rem;\
-\}\
-\
-.essay \{\
-    font-size: 1.1rem;\
-    line-height: 2;\
-\}\
-\
-.essay p \{\
-    margin-bottom: 1.8rem;\
-\}\
-\
-.back-link \{\
-    display: inline-block;\
-    margin-top: 3rem;\
-\}\
-\
-.back-link:hover \{\
-    opacity: 0.6;\
-\}\
-\
-/* ===================================\
-   Mobile\
-=================================== */\
-\
-@media (max-width: 768px) \{\
-\
-    .hero \{\
-        grid-template-columns: 1fr;\
-        gap: 2rem;\
-\
-        padding-top: 2rem;\
-    \}\
-\
-    .featured \{\
-        grid-template-columns: 1fr;\
-    \}\
-\
-    .nav \{\
-        flex-direction: column;\
-        gap: 1rem;\
-    \}\
-\
-    .nav-links \{\
-        gap: 1.2rem;\
-    \}\
-\
-    h1 \{\
-        font-size: 3rem;\
-    \}\
+  }  
+  
+/* ===================================  
+   Button  
+=================================== */  
+  
+.button   {  
+    display: inline-block;  
+  
+    margin-top: 1rem;  
+  
+    padding: 0.9rem 1.5rem;  
+  
+    border: 1px solid var(--text);  
+  
+    transition: all 0.3s ease;  
+  }  
+  
+.button:hover   {  
+    background: var(--text);  
+    color: var(--bg);  
+  }  
+  
+/* ===================================  
+   Featured Cards  
+=================================== */  
+  
+.featured   {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+  
+    gap: 2rem;  
+  
+    margin: 5rem 0 8rem;  
+  }  
+  
+.card   {  
+    padding: 2rem;  
+  
+    background: var(--card);  
+  
+    border-radius: 4px;  
+  }  
+  
+.card p   {  
+    margin-bottom: 0;  
+  }  
+  
+/* ===================================  
+   Footer  
+=================================== */  
+  
+footer   {  
+    border-top: 1px solid var(--border);  
+  
+    text-align: center;  
+  
+    padding: 3rem 1rem;  
+  }  
+  
+footer p   {  
+    margin: 0.5rem 0;  
+  }  
+  
+/* ===================================  
+   Blog Archive  
+=================================== */  
+  
+.blog-page   {  
+    max-width: 750px;  
+    margin: 0 auto;  
+    padding-bottom: 6rem;  
+  }  
+  
+.blog-page   {  
+    max-width: 750px;  
+    margin: 0 auto;  
+    padding-bottom: 6rem;  
+  }  
+  
+.page-title   {  
+    margin: 3rem 0;  
+  }  
+  
+.post-preview   {  
+    padding: 2rem 0;  
+  
+    border-bottom: 1px solid var(--border);  
+  }  
+  
+.post-date   {  
+    font-size: 0.9rem;  
+    opacity: 0.7;  
+  }  
+  
+.post-preview a   {  
+    display: inline-block;  
+    margin-top: 0.5rem;  
+  }  
+  
+.post-preview a:hover   {  
+    opacity: 0.6;  
+  }  
+  
+/* ===================================  
+   Single Post  
+=================================== */  
+  
+.post-container   {  
+    max-width: 750px;  
+    margin: 0 auto;  
+  
+    padding-bottom: 6rem;  
+  }  
+  
+.featured-image   {  
+    margin: 2rem 0 3rem;  
+  }  
+  
+.essay   {  
+    font-size: 1.1rem;  
+    line-height: 2;  
+  }  
+  
+.essay p   {  
+    margin-bottom: 1.8rem;  
+  }  
+  
+.back-link   {  
+    display: inline-block;  
+    margin-top: 3rem;  
+  }  
+  
+.back-link:hover   {  
+    opacity: 0.6;  
+  }  
+  
+/* ===================================  
+   Mobile  
+=================================== */  
+  
+@media (max-width: 768px)   {  
+  
+    .hero   {  
+        grid-template-columns: 1fr;  
+        gap: 2rem;  
+  
+        padding-top: 2rem;  
+      }  
+  
+    .featured   {  
+        grid-template-columns: 1fr;  
+      }  
+  
+    .nav   {  
+        flex-direction: column;  
+        gap: 1rem;  
+      }  
+  
+    .nav-links   {  
+        gap: 1.2rem;  
+      }  
+  
+    h1   {  
+        font-size: 3rem;  
+      }  
 
 
-\}}
+  }}
