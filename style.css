@@ -26,33 +26,33 @@ body {
     background: var(--bg);
     color: var(--text);
 
-    font-family: "Inter", serif;
+    font-family: "Inter", sans-serif;
     line-height: 1.8;
     font-size: 17px;
   }  
   
 img   {  
-    width: 50%;  
+    width: 100%;  
     display: block;  
   }  
   
 a   {  
-    color: black;  
+    color: inherit;  
     text-decoration: none;  
   }  
 
-  
+/*  
 .nav-links   {  
     color: black; 
   }  
 
-/* 방법 B: 상위 요소 활용 */
+
   
 nav a   {  
     color: black;
   }  
+  */
 
-  
 main   {  
     width: min(1100px, 90%);  
     margin: 30px auto;  
@@ -89,24 +89,24 @@ p   {
   
 .nav   {  
     width: min(1100px, 90%);  
-    margin: 30px;  
+    margin: 0 auto;  
   
     display: flex;  
     justify-content: space-between;  
     align-items: center;  
   
     padding: 2rem 0;  
-	background-color: crimson;
 	
   }  
 
   
 .logo a   {  
-    font-family: "Cormorant Garamond", sans-serif;  
+    font-family: "Cormorant Garamond", serif;  
     font-size: 2rem;  
-	color: black;
+	
+	/*color: black;
 	margin-top: 20px; 
-	margin-left: 30px;
+	margin-left: 30px;*/
   }  
  
   
@@ -137,27 +137,7 @@ p   {
   
 .nav-links a   {  
     transition: opacity 0.3s ease;  
-  }  
-
-.nav-links > a  {  
-    text-decoration: none;
-    color: black;
-  }  
- 
-.logo   {  
-    margin-top: 20px;
-    margin-left: 30px;
-  }  
-
-.nav-links   {  
-    margin-top: 10px;
-    margin-left: 30px;
-  }  
-
-  
-.nav-links a:hover   {  
-    opacity: 0.6;  
-	
+	text-decoration: none;
   }  
   
 .nav-links a:link   {  
@@ -171,7 +151,8 @@ p   {
 
 /* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
 .nav-links a:hover   {  
-    color: crimson; 
+    opacity: 0.6;  
+	color: crimson; 
   }  
 
 /* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
@@ -200,7 +181,6 @@ p   {
   
 .hero-text p   {  
     max-width: 500px;  
-    margin-top: 20px; margin-left: 30px;
   }  
   
 /* ===================================  
@@ -268,12 +248,6 @@ footer p   {
 /* ===================================  
    Blog Archive  
 =================================== */  
-  
-.blog-page   {  
-    max-width: 750px;  
-    margin: 0 auto;  
-    padding-bottom: 6rem;  
-  }  
   
 .blog-page   {  
     max-width: 750px;  
