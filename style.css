@@ -96,26 +96,11 @@ p \{\
     font-family: "Cormorant Garamond", serif;\
     font-size: 2rem;\
 \}\
- 
-a:link{
-				color:black;
-				text-decoration: none;}
-a:visited{
-				color:black;
-				text-decoration: none;}
-a:hover{
-				color:red;
-				text-decoration: none;}
-a:active{
-				color:black;
-				text-decoration: none;}
 
 \
 .nav-links \{\
     display: flex;\
     gap: 2rem;\
-	color:black;
-	text-decoration: none;
 \}\
 \
 .nav-links a \{\
@@ -124,6 +109,7 @@ a:active{
 \
 .nav-links a:hover \{\
     opacity: 0.6;\
+	
 \}\
 \
 /* ===================================\
@@ -313,4 +299,26 @@ footer p \{\
     h1 \{\
         font-size: 3rem;\
     \}\
+
+\
+
+	a:link {
+    color: black; 
+}
+
+/* 2. 방문한 적이 있는 링크 색상 */
+a:visited {
+    color: black; 
+}
+
+/* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
+a:hover {
+    color: crimson; 
+}
+
+/* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
+a:active {
+    color: crimson; 
+}
+	\}\
 \}}
