@@ -140,6 +140,12 @@ p \{\
     transition: opacity 0.3s ease;\
 \}\
 \
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+\}\
+\
 .nav-links a:hover \{\
     opacity: 0.6;\
 	
