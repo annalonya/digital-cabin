@@ -95,7 +95,6 @@ p \{\
 .logo a \{\
     font-family: "Cormorant Garamond", serif;\
     font-size: 2rem;\
-    color: inherit;\       /* 부모 요소의 글자 색상 상속 (파란색 방지) */
 \}\
  
 a:link{
