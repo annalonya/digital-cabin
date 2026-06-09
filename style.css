@@ -96,12 +96,21 @@ p \{\
     font-family: "Cormorant Garamond", serif;\
     font-size: 2rem;\
     color: inherit;\       /* 부모 요소의 글자 색상 상속 (파란색 방지) */
-}
 
-a:hover {
-    color: #ff0000;       /* 마우스를 올렸을 때 빨간색으로 변경 */
-    text-decoration: underline; /* 호버 시에만 밑줄 표시 원할 경우 */
 }
+ a:link{
+				color:black;
+				text-decoration: none;}
+a:visited{
+				color:black;
+				text-decoration: none;}
+a:hover{
+				color:red;
+				text-decoration: none;}
+a:active{
+				color:black;
+				text-decoration: none;}
+
 \}\
 \
 .nav-links \{\
