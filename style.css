@@ -416,8 +416,9 @@ footer p   {
     }
 
     .photo-row img {
-        width: 100%;
+        /*width: 100%;*/
     }
+	
     .hero   {  
         grid-template-columns: 1fr;  
         gap: 1.5rem;  
