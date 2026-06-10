@@ -99,7 +99,7 @@ p   {
 	
   }  
 
-
+/*사진 2개 한줄에*/
 .photo-row {
     display: flex;
     gap: 20px;
@@ -108,6 +108,17 @@ p   {
 .photo-row img {
     width: 50%;
     height: auto;
+}
+/*갤러리형 사진*/
+.gallery {
+    display: flex;
+    gap: 24px;
+    margin: 40px 0;
+}
+
+.gallery img {
+    width: calc(50% - 12px);
+    border-radius: 6px;
 }
 
 
