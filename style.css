@@ -99,14 +99,15 @@ p   {
 	
   }  
 
-.nav div {
-	text-align: center;
+
+.photo-row {
+    display: flex;
+    gap: 20px;
 }
 
-.nav div img {
-	border: 2px solide red;
-	width: 300px;
-	padding: 15px:
+.photo-row img {
+    width: 50%;
+    height: auto;
 }
 
 
@@ -347,7 +348,14 @@ footer p   {
 =================================== */  
   
 @media (max-width: 768px)   {  
-  
+
+    .photo-row {
+        flex-direction: column;
+    }
+
+    .photo-row img {
+        width: 100%;
+    }
     .hero   {  
         grid-template-columns: 1fr;  
         gap: 1.5rem;  
