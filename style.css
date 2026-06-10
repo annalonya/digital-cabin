@@ -106,7 +106,8 @@ p   {
 }
 
 .photo-row img {
-    width: 50%;
+	flex: 1;
+    width: 0;
     height: auto;
 }
 /*갤러리형 사진*/
@@ -411,9 +412,9 @@ footer p   {
   
 @media (max-width: 768px)   {  
 
-    .photo-row {
-        /*flex-direction: column;*/
-    }
+	.photo-row {
+    /*flex-direction: column;*/
+    }	
 
     .photo-row img {
         /*width: 100%;*/
