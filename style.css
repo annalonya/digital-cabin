@@ -297,7 +297,23 @@ footer p   {
 .featured-image   {  
     margin: 1rem 0 3rem;  
   }  
+
+
+/* 꽉채우는 이미지*/
+  .image-container {
+    width: 100%;     
+    height: auto;   
+    overflow: hidden;  
+  }
+
   
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
 .essay   {  
     font-size: 1.1rem;  
     line-height: 2;  
@@ -324,9 +340,9 @@ footer p   {
   
     .hero   {  
         grid-template-columns: 1fr;  
-        gap: 2rem;  
+        gap: 1.5rem;  
   
-        padding-top: 2rem;  
+        padding-top: 1.5rem;  
       }  
   
     .featured   {  
@@ -339,11 +355,11 @@ footer p   {
       }  
   
     .nav-links   {  
-        gap: 1.2rem;  
+        gap: 1rem;  
       }  
   
     h1   {  
-        font-size: 3rem;  
+        font-size: 2rem;  
       }  
 	
   }}
