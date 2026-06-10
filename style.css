@@ -260,7 +260,7 @@ footer p   {
   }  
   
 .page-title   {  
-    margin: 3rem 0;  
+    margin: 1rem 0;  
   }  
   
 .post-preview   {  
@@ -295,7 +295,7 @@ footer p   {
   }  
   
 .featured-image   {  
-    margin: 2rem 0 3rem;  
+    margin: 1rem 0 3rem;  
   }  
   
 .essay   {  
@@ -309,7 +309,7 @@ footer p   {
   
 .back-link   {  
     display: inline-block;  
-    margin-top: 3rem;  
+    margin-top: 2rem;  
   }  
   
 .back-link:hover   {  
