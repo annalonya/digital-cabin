@@ -412,7 +412,7 @@ footer p   {
 @media (max-width: 768px)   {  
 
     .photo-row {
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
 
     .photo-row img {
