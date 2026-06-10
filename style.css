@@ -99,11 +99,11 @@ p   {
 	
   }  
 
-nav > div {
+.nav div {
 	text-align: center;
 }
 
-nav > div > img {
+.nav div img {
 	border: 2px solide red;
 	width: 300px;
 	padding: 15px:
