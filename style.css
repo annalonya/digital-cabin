@@ -129,12 +129,16 @@ p   {
     height: 100%;
     object-fit: cover;
     display: block;
-
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
-.gallery-item:hover img {
-    transform: scale(1.05);
+.gallery-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0);
+    transition: background 0.3s ease;
+    z-index: 1;
 }
 
 .gallery-item span {
@@ -144,17 +148,28 @@ p   {
     right: 0;
 
     padding: 15px;
-    background: rgba(0,0,0,0.5);
 
     color: white;
-    opacity: 0;
+	opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
 
-    transition: opacity 0.3s;
+    z-index: 2;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
 }
 
 .gallery-item:hover span {
     opacity: 1;
+	transform: translateY(0);
 }
+
+.gallery-item:hover::before {
+    background: rgba(0,0,0,0.4);
+}
+
 
 
 
