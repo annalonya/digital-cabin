@@ -99,7 +99,17 @@ p   {
 	
   }  
 
-  
+nav > div {
+	text-align: center;
+}
+
+nav > div > img {
+	border: 2px solide red;
+	width: 300px;
+	padding: 15px:
+}
+
+
 .logo a   {  
     font-family: "Cormorant Garamond", serif;  
     font-size: 2rem;
