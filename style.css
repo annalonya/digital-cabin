@@ -221,22 +221,46 @@ p   {
     color: black; 
   }  
 
-/* 2. 방문한 적이 있는 링크 색상 */
 .nav-links a:visited   {  
     color: black; 
   }  
 
-/* 3. 마우스를 링크 위에 올렸을 때(Hover) 색상 */
 .nav-links a:hover   {  
     opacity: 0.6;  
 	color: crimson; 
   }  
 
-/* 4. 마우스로 클릭하고 있는 순간(Active)의 색상 */
 .nav-links a:active   {  
     color: crimson; 
   }  
 
+  
+.sub-links   {  
+    display: flex;  
+    gap: 2rem;  
+  }  
+  
+.sub-links a   {  
+    transition: opacity 0.3s ease;  
+	text-decoration: none;
+  }  
+  
+.sub-links a:link   {  
+    color: black; 
+  }  
+
+.sub-links a:visited   {  
+    color: black; 
+  }  
+
+.sub-links a:hover   {  
+    opacity: 0.6;  
+	color: crimson; 
+  }  
+
+.sub-links a:active   {  
+    color: crimson; 
+  }  
   
 /* ===================================  
    Hero  
