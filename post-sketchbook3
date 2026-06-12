@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchbook Post | digital cabin</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+        <nav class="nav">
+            <div class="logo">
+                <a href="index.html">Anna Choi</a>
+            </div>
+
+            <div class="nav-links">
+                <a href="blog.html">Blog</a>
+                <a href="sketchbook.html">Sketchbook</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+<main style="margin-top: 20px;” class="post-container">
+
+    <!-- Replace with post title -->
+    <h1>
+        Pink sunset
+    </h1>
+
+    <!-- Replace date -->
+    <p class="post-date">
+        May, 2026
+    </p>
+
+  	<img src="pinksunset.jpg" alt="pink sunset in Hawaii">
+    
+    <article style="margin-top: 40px;" class="essay">
+
+        <p>Surfing used to take up such a big part of my life. after a sudden injury, not only surfing but even the things i loved, exercising, or simple daily tasks like grocery shopping became difficult. There were many days when i felt helpless and stayed in bed for hours. 
+		</p>
+		<p>So i started this 30-day challenge as a way to plant a small seed of motivation in myself every day. 
+		</p>
+		
+		<div class="photo-row">
+		 <img src="30chal_stin.JPG" alt="30day challenge stinray">
+  	  	 <img src="30chal_fire.JPG" alt="30day challenge woodfire">
+		</div>
+
+		<p style="margin-top: 10px;">Actually, it wasn't easy. Even though the paintings were small A4 size, I thought about what to draw every day, completed them, filmed the process, made a video, and uploaded it. For 30 days. It was a lot of work. As the 30th approached, I was amazed at how much I had actually accomplished. Considering the past few months spent lying in bed, it was a tremendous sense of achievement. I was truly proud of myself.
+		</p>
+		<p>No dramatic change after the 30-day challenge. Life just went back to normal.  I still want to paint but starting again feels hard. That daily pressure, finishing one piece every 24 hours, actually helped more than I thought. I even thought about doing 100 days, but instead I feel drawn to something bigger. So my next challenge would be a large painting. 
+		</p>
+		<p>Maybe one day, my work will hang on a white wall like one at the local gallery.
+		</p>
+
+
+    </article>
+
+    <a href="sketchbook.html" class="back-link">
+        ← Back to sketchbook
+    </a>
+
+</main>
+
+</body>
+
+            <style>
+      p {
+      }
+  
+      .text-box {
+    margin-top: 100px;
+    margin-bottom: 30px;
+      }
+    </style>
+
+    <p align="center" class="text-box" style="font-size: 14px;">ⓒ 2026 Anna Choi. All Rights Reserved.</p>
+
+</html>
