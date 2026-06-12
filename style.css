@@ -237,7 +237,7 @@ p   {
   
 .sub-links   {  
     display: flex;  
-    gap: 2rem;  
+    gap: 1rem;  
   }  
   
 .sub-links a   {  
