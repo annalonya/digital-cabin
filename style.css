@@ -237,11 +237,12 @@ p   {
   
 .sub-links   {  
     display: flex;  
-    gap: 1rem;  
+    gap: 2rem;  
   }  
   
 .sub-links a   {  
-    transition: opacity 0.3s ease;  
+    text-size: 14px;
+	transition: opacity 0.3s ease;  
 	text-decoration: none;
   }  
   
