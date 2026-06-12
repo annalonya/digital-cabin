@@ -235,34 +235,6 @@ p   {
   }  
 
   
-.sub-links   {  
-    display: flex;  
-    gap: 2rem;  
-  }  
-  
-.sub-links a   {  
-    text-size: 14px;
-	transition: opacity 0.3s ease;  
-	text-decoration: none;
-  }  
-  
-.sub-links a:link   {  
-    color: black; 
-  }  
-
-.sub-links a:visited   {  
-    color: black; 
-  }  
-
-.sub-links a:hover   {  
-    opacity: 0.6;  
-	color: crimson; 
-  }  
-
-.sub-links a:active   {  
-    color: crimson; 
-  }  
-  
 /* ===================================  
    Hero  
 =================================== */  
