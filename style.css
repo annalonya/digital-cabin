@@ -171,7 +171,16 @@ p   {
     background: rgba(0,0,0,0.4);
 }
 
+.content-img {
+            height: auto;
+            display: block;
+            margin: 0 auto; /* 가운데 정렬 필요 시 사용 */
+        }
 
+        /* 50% 너비 적용 클래스 */
+        .half-size {
+            width: 50%;
+        }
 
 
 .logo a   {  
